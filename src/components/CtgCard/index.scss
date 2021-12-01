@@ -1,0 +1,66 @@
+.ctg-card-wrap {
+    display: block;
+    position: relative;
+    text-decoration: none;
+    box-shadow: 5px 5px 0 #000;
+    margin: 0.5rem;
+    color: #fff;
+
+    .ctg-card {
+        position: relative;
+    }
+
+    .ctg-card-hover {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        transition: 0.5s;
+
+        &:hover {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        .ctg-card-title {
+            letter-spacing: 3px;
+
+            @media (max-width: 400px) {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .ctg-img {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+
+    .noob {
+        background: url('../../assets/noob-card.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .group {
+        background: url('../../assets/group-card.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .elite {
+        background: url('../../assets/elite-card.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .open {
+        background: url('../../assets/open-card.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}

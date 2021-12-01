@@ -1,0 +1,40 @@
+.arsma-nav {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    transition: 0.5s;
+}
+
+.brand-wrap {
+    width: 30px;
+    height: 0px;
+    position: relative;
+
+    .navbar-logo {
+        position: absolute;
+        top: -20px;
+        left: 0;
+        width: 90px;
+    }
+}
+
+.nav-bg {
+    background-color: #c23616 !important;
+}
+
+.nav-link {
+    color: #222 !important;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.7);
+    @media (max-width: 768px) {
+        text-shadow: unset !important;
+        text-align: center !important;
+    }
+
+    &:hover {
+        color: #fff !important;
+        text-shadow: 1px 1px 0 rgba(34, 34, 34, 0.8) !important;
+    }
+}

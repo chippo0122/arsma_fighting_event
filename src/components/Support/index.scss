@@ -1,0 +1,67 @@
+.support {
+    width: 100%;
+    padding-top: 100px;
+
+    h3 {
+        font-style: italic;
+    }
+
+    .hmmaa {
+        width: 250px;
+        height: 250px;
+        background: url('../../assets/HMMAA.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .support-wrap {
+        width: 960px;
+        margin: 0 auto;
+
+        @media (max-width: 960px) {
+            width: 90%;
+        }
+
+        @media (max-width: 768px) {
+            width: 80%;
+        }
+    }
+
+    li {
+        font-size: 1rem;
+        font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+        text-align: center;
+    }
+
+    .arsma-support {
+        width: 100%;
+        padding-bottom: 100%;
+        background: url('../../assets/Arsma.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .song-ju-support {
+        width: 100%;
+        padding-bottom: 100%;
+        background: url('../../assets/Song_Ju.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .muscle-factory-support {
+        width: 100%;
+        padding-bottom: 100%;
+        background: url('../../assets/Muscle_Factory.png');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .running-pig-support {
+        width: 100%;
+        padding-bottom: 100%;
+        background: url('../../assets/Running_Pig.png');
+        background-position: center;
+        background-size: cover;
+    }
+}

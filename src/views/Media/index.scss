@@ -1,0 +1,26 @@
+.media {
+    width: 100%;
+    padding-top: 120px;
+    position: relative;
+}
+
+.media-bg {
+    position: fixed;
+    background: url('../../assets/beach_side.jpg');
+    background-position: center;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    filter: grayscale(1) blur(2px);
+    z-index: -1;
+}
+
+.crsl-container {
+    width: 680px;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+.ctg-detail {
+    width: 100%;
+
+    .ctg-detail-card {
+        border: 3px solid #fff;
+        border-radius: 15px;
+        width: 45%;
+        
+        p, button {
+            font-family: arial,"Microsoft JhengHei","微軟正黑體",sans-serif !important;
+        }
+
+        @media (max-width: 768px) {
+            width: 90%;
+        }
+    }
+}

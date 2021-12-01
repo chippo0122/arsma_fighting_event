@@ -1,0 +1,44 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css");
+
+.footer {
+    background-color: #222;
+    padding-bottom: 2rem;
+
+    .footer-logo {
+        background: url('../../assets/HMMAA.png');
+        height: 150px;
+        width: 150px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .footer-info {
+        text-align: end;
+    }
+
+    .social-media {
+        justify-content: end;
+        
+    }
+
+    .social-link {
+        width: 50px;
+        padding: 1rem;
+        i {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .social-media {
+            justify-content: center;
+            width: 55% !important;
+            margin: 0 auto !important;
+        }
+
+        .footer-info {
+            text-align: center;
+        }
+    }
+}

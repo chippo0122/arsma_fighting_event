@@ -1,0 +1,39 @@
+.hwfc {
+    height: 130vh;
+    width: 100%;
+    position: relative;
+
+    h3 {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        font-style: italic;
+        transform: translateY(250px);
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .first-sentence {
+        color: #1289A7;
+    }
+
+    .scnd-sentence {
+        color: #c23616;
+    }
+
+    .fade-in {
+        transform: translateY(-50%);
+        opacity: 1;
+    }
+
+    .fade-out {
+        transform: translateY(-250px);
+        opacity: 0;
+    }
+
+    @media (max-width: 768px) {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
