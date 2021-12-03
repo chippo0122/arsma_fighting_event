@@ -23,16 +23,16 @@ export default function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarList">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="/main_intro">賽事介紹</a>
+                            <a className="nav-link" aria-current="page" href="#/main_intro">賽事介紹</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/categories">賽事組別</a>
+                            <a className="nav-link" href="#/categories">賽事組別</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/media">賽事花絮</a>
+                            <a className="nav-link" href="#/media">賽事花絮</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/contact">聯絡我們</a>
+                            <a className="nav-link" href="#/contact">聯絡我們</a>
                         </li>
                     </ul>
                 </div>

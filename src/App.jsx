@@ -1,4 +1,4 @@
-import { Route, Switch, withRouter } from "react-router"
+import { Route, Switch, withRouter, Redirect } from "react-router"
 //views
 import Media from './views/Media'
 import MainIntro from './views/MainIntro'
@@ -17,7 +17,8 @@ function App() {
 				<Route path="/main_intro" component={MainIntro} />
 				<Route path="/categories" component={Categories} />
 				<Route path="/contact" component={Contact} />
-				<Route component={Index} />
+				<Route path="/" component={Index} />
+				<Redirect to="/"></Redirect>
 			</Switch>
 		</div>
 	);
