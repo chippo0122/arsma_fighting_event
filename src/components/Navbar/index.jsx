@@ -12,7 +12,7 @@ export default function Navbar() {
     return (
         <nav ref={arsmaNav} className="arsma-nav navbar navbar-expand-md navbar-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="/">
+                <a className="navbar-brand" href="#/">
                     <div className="brand-wrap">
                         <img className="navbar-logo" src={Logo} alt="main logo" />
                     </div>
