@@ -11,7 +11,7 @@ export default function CtgCard(props) {
     }, [type])
 
     return (
-        <a href={`/categories#${children}`} className="ctg-card-wrap">
+        <a href={`#/categories#${children}`} className="ctg-card-wrap">
             <div className="ctg-card">
                 <div ref={ctgImg} className="ctg-img"></div>
                 <div className="ctg-card-hover">
